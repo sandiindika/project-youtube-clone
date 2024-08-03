@@ -17,7 +17,7 @@ const Navbar = ({ setSidebar }) => {
                 <Link to='/'><img className='logo' src={logo} alt="logo" /></Link>
             </div>
 
-            <div className='nav-middle flex-div'>
+            <div className="nav-middle flex-div">
                 <div className="search-box flex-div">
                     <input type="text" placeholder='Search' />
                     <img src={search_icon} alt="search" />

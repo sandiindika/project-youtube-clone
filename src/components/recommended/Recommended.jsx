@@ -9,7 +9,7 @@ const Recommended = ({ categoryId }) => {
 
     const fetchData = async () => {
 
-        const relatedVideos_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResult=45&regionCode=ID&videoCategoryId=${categoryId}&key=${import.meta.env.VITE_API_KEY}`
+        const relatedVideos_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=45&regionCode=ID&videoCategoryId=${categoryId}&key=${import.meta.env.VITE_API_KEY}`
         await fetch(relatedVideos_url)
             .then(response => response.json())
             .then(data => setApiData(data.items));

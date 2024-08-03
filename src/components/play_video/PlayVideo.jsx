@@ -15,31 +15,31 @@ const PlayVideo = () => {
             <video src={video1} controls autoPlay muted></video>
             <h3>Best YouTube Channel to Learn Web Development</h3>
             <div className="play-video-info">
-                <p>1525 Views &bull; 2 days ago</p>
+                <p>1.5K views &bull; 2 days ago</p>
                 <div>
-                    <span><img src={like} alt="like"/> 125</span>
-                    <span><img src={dislike} alt="dislike"/> 2</span>
-                    <span><img src={share} alt="share"/> Share</span>
-                    <span><img src={save} alt="save"/> Save</span>
+                    <span><img src={like} alt="like" /> 125</span>
+                    <span><img src={dislike} alt="dislike" /> 2</span>
+                    <span><img src={share} alt="share" /> Share</span>
+                    <span><img src={save} alt="save" /> Save</span>
                 </div>
             </div>
             <hr />
             <div className="publisher">
-                <img src={jack} alt="jack"/>
+                <img src={jack} alt="jack" />
                 <div>
                     <p>Suryaeceran</p>
-                    <span>1M Subscribers</span>
+                    <span>1M subscribers</span>
                 </div>
                 <button>Subscribe</button>
             </div>
             <div className="vid-description">
                 <p>Subscribe Suryaeceran to Watch More Tutorials on Web Development</p>
 
-                <hr/>
+                <hr />
 
                 <h4>130 Comments</h4>
                 <div className="comment">
-                    <img src={user_profile} alt="user-profile"/>
+                    <img src={user_profile} alt="user-profile" />
                     <div>
                         <h3>Raja Iblis <span>1 day ago</span></h3>
                         <p>
@@ -47,14 +47,14 @@ const PlayVideo = () => {
                             sagittis facil
                         </p>
                         <div className="comment-action">
-                            <img src={like} alt="like"/>
+                            <img src={like} alt="like" />
                             <span>244</span>
-                            <img src={dislike} alt="dislike"/>
+                            <img src={dislike} alt="dislike" />
                         </div>
                     </div>
                 </div>
                 <div className="comment">
-                    <img src={user_profile} alt="user-profile"/>
+                    <img src={user_profile} alt="user-profile" />
                     <div>
                         <h3>Raja Iblis <span>1 day ago</span></h3>
                         <p>
@@ -62,14 +62,14 @@ const PlayVideo = () => {
                             sagittis facil
                         </p>
                         <div className="comment-action">
-                            <img src={like} alt="like"/>
+                            <img src={like} alt="like" />
                             <span>244</span>
-                            <img src={dislike} alt="dislike"/>
+                            <img src={dislike} alt="dislike" />
                         </div>
                     </div>
                 </div>
                 <div className="comment">
-                    <img src={user_profile} alt="user-profile"/>
+                    <img src={user_profile} alt="user-profile" />
                     <div>
                         <h3>Raja Iblis <span>1 day ago</span></h3>
                         <p>
@@ -77,14 +77,14 @@ const PlayVideo = () => {
                             sagittis facil
                         </p>
                         <div className="comment-action">
-                            <img src={like} alt="like"/>
+                            <img src={like} alt="like" />
                             <span>244</span>
-                            <img src={dislike} alt="dislike"/>
+                            <img src={dislike} alt="dislike" />
                         </div>
                     </div>
                 </div>
                 <div className="comment">
-                    <img src={user_profile} alt="user-profile"/>
+                    <img src={user_profile} alt="user-profile" />
                     <div>
                         <h3>Raja Iblis <span>1 day ago</span></h3>
                         <p>
@@ -92,14 +92,14 @@ const PlayVideo = () => {
                             sagittis facil
                         </p>
                         <div className="comment-action">
-                            <img src={like} alt="like"/>
+                            <img src={like} alt="like" />
                             <span>244</span>
-                            <img src={dislike} alt="dislike"/>
+                            <img src={dislike} alt="dislike" />
                         </div>
                     </div>
                 </div>
                 <div className="comment">
-                    <img src={user_profile} alt="user-profile"/>
+                    <img src={user_profile} alt="user-profile" />
                     <div>
                         <h3>Raja Iblis <span>1 day ago</span></h3>
                         <p>
@@ -107,9 +107,9 @@ const PlayVideo = () => {
                             sagittis facil
                         </p>
                         <div className="comment-action">
-                            <img src={like} alt="like"/>
+                            <img src={like} alt="like" />
                             <span>244</span>
-                            <img src={dislike} alt="dislike"/>
+                            <img src={dislike} alt="dislike" />
                         </div>
                     </div>
                 </div>

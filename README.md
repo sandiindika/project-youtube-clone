@@ -2,6 +2,8 @@
 
 This project is a YouTube Video Recommendation App built with React and Vite. It fetches and displays a list of recommended videos based on a given category ID using the YouTube Data API.
 
+Live preview [click this](https://sans-yt.vercel.app/).
+
 ## Features
 
 - Fetches and displays a list of recommended videos.

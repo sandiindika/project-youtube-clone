@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React, {useState} from 'react'
 import './Feed.css'
 import thumbnail1 from '../../assets/thumbnail1.png'
 import thumbnail2 from '../../assets/thumbnail2.png'
@@ -11,7 +11,16 @@ import thumbnail7 from '../../assets/thumbnail7.png'
 import thumbnail8 from '../../assets/thumbnail8.png'
 import { Link } from "react-router-dom";
 
-const Feed = () => {
+// eslint-disable-next-line react/prop-types
+const Feed = ({category}) => {
+
+    const [data, setData] = useState([])
+
+    const fetchData = async () => {
+        const videoList_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=US&videoCategoryId=${category}&key=${import.meta.env.VITE_API_KEY}`
+        await fetch(videoList_url)
+    }
+
     return (
         <div className='feed'>
             <Link to={`video/20/4521`} className='card'>
